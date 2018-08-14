@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <style>
 
 
@@ -17,6 +18,20 @@
                 <a class="nav-link active text-dark mr-5 item-menu font-text" href="#">Trang chủ</a>
                 <a class="nav-link active text-dark mr-5 item-menu font-text" href="#">Trang chủ</a>
                 <a class="nav-link active text-dark mr-5 item-menu font-text" data-toggle="modal"
+=======
+
+    <div class="header" style="background-color: #EFBFB2">
+        <div>
+            <div class="logo">
+                <img class="mb-0 mt-5" src="{{URL::asset('/image/Logo1.png')}}"/>
+            </div>
+            <nav class="scroll-menu text-center mb-3 ml-3 p-5">
+                <a class=" text-dark mr-5 item-menu font-text" href="#">Trang chủ</a>
+                <a class=" text-dark mr-5 item-menu font-text" href="#">Trang chủ</a>
+                <a class=" text-dark mr-5 item-menu font-text" href="#">Trang chủ</a>
+                <a class=" text-dark mr-5 item-menu font-text" href="#">Trang chủ</a>
+                <a class=" text-dark mr-5 item-menu font-text" data-toggle="modal"
+>>>>>>> Stashed changes
                    data-target="#exampleModalCenter" href="#">Đăng nhập</a>
 
             </nav>
@@ -84,4 +99,4 @@
         </div>
 
     </div>
-</header>
+

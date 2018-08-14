@@ -24,7 +24,23 @@
     <link rel="stylesheet" href="{{asset('css/Simple-Header-y-Navbar-adaptativo-1.css')}}">
     <link rel="stylesheet" href="{{asset('css/Simple-Header-y-Navbar-adaptativo.css')}}">
     <link rel="stylesheet" href="{{asset('css/Simple-Slider.css')}}">
+<<<<<<< Updated upstream
     <link rel="stylesheet" href="{{asset('css/Simple-Slider.css')}}">
+=======
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway+Dots">
+    <link rel="stylesheet" href="{{asset('css/News-article-for-homepage-by-Ikbendiederiknl.css')}}">
+    <link rel="stylesheet" href="{{asset('css/Pretty-Search-Form.css')}}">
+    <link rel="stylesheet" href="{{asset('css/sidebar-1.css')}}">
+    <link rel="stylesheet" href="{{asset('css/sidebar.css')}}">
+    <link rel="stylesheet" href="{{asset('css/styles.css')}}">
+    <link rel="stylesheet" href="{{asset('css/price.css')}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{asset('css/list.css')}}">
+    <link rel="stylesheet" href="{{asset('css/dropdown.css')}}">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+>>>>>>> Stashed changes
 </head>
 
 <body>
@@ -49,7 +65,6 @@
 <script src="{{asset('js/Animated-Testimomial.js')}}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
-<script src="{{asset('js/Simple-Slider.js')}}"></script>
 <script id="bs-live-reload" data-sseport="55602" data-lastchange="1533970729387"
         src="{{asset('js/livereload.js')}}"></script>
 </body>
