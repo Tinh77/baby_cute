@@ -67,6 +67,7 @@
                                     <div class="group">
                                         <input type="submit" class="button" value="Sign Up">
                                     </div>
+                                    <label for="tab-1">Already Member?</label>
                                     <div class="hr"></div>
                                     <div class="foot-lnk">
                                         <label for="tab-1">Already Member?</label>
