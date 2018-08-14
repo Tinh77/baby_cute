@@ -12,6 +12,6 @@
 */
 
 Route::get('/gift', function () {
-    return view('gift.list');
+    return view('masterLayout.content.list');
 });
 

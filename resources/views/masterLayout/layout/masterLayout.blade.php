@@ -25,14 +25,27 @@
     <link rel="stylesheet" href="{{asset('css/Simple-Header-y-Navbar-adaptativo.css')}}">
     <link rel="stylesheet" href="{{asset('css/Simple-Slider.css')}}">
     <link rel="stylesheet" href="{{asset('css/Simple-Slider.css')}}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway+Dots">
+    <link rel="stylesheet" href="{{asset('css/News-article-for-homepage-by-Ikbendiederiknl.css')}}">
+    <link rel="stylesheet" href="{{asset('css/Pretty-Search-Form.css')}}">
+    <link rel="stylesheet" href="{{asset('css/sidebar-1.css')}}">
+    <link rel="stylesheet" href="{{asset('css/sidebar.css')}}">
+    <link rel="stylesheet" href="{{asset('css/styles.css')}}">
+    <link rel="stylesheet" href="{{asset('css/price.css')}}">
+    <link rel="stylesheet" href="{{asset('css/list.css')}}">
+    <link rel="stylesheet" href="{{asset('css/dropdown.css')}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
 <div class="bg-white">
     @include('masterLayout.partial.header')
-    <div class="container">
-        @include('masterLayout.content.home_page')
 
+    <div class="container">
+        @section('content')
+        @show
     </div>
 
     @include('masterLayout.partial.footer')
@@ -52,6 +65,18 @@
 <script src="{{asset('js/Simple-Slider.js')}}"></script>
 <script id="bs-live-reload" data-sseport="55602" data-lastchange="1533970729387"
         src="{{asset('js/livereload.js')}}"></script>
+<script scr="/js/price.js"></script>
+<script scr="/js/list.js"></script>
+<script id="bs-live-reload" data-sseport="55602" data-lastchange="1533973033728" src="/js/livereload.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
