@@ -32,3 +32,4 @@
             <p class="copyright">Copyright © 2018</p>
         </div>
     </footer>
+</div>

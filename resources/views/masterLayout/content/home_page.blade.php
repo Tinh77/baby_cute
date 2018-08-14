@@ -1,5 +1,5 @@
-{{--@extends('masterLayout.layout.masterLayout')--}}
-{{--@section('content')--}}
+@extends('masterLayout.layout.masterLayout')
+@section('content')
 
 @include('masterLayout.partial.slide')
 
@@ -218,5 +218,4 @@
         </a>
     </div>
 </div>
-
-{{--@endsection--}}
+@endsection
