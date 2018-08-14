@@ -25,6 +25,13 @@
     <link rel="stylesheet" href="{{asset('css/Simple-Header-y-Navbar-adaptativo.css')}}">
     <link rel="stylesheet" href="{{asset('css/Simple-Slider.css')}}">
     <link rel="stylesheet" href="{{asset('css/Simple-Slider.css')}}">
+<<<<<<< HEAD
+=======
+
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+>>>>>>> b7e01d3c684274ff0ef07ddc5e6c226ca91dd4ac
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway+Dots">
     <link rel="stylesheet" href="{{asset('css/News-article-for-homepage-by-Ikbendiederiknl.css')}}">
@@ -33,21 +40,31 @@
     <link rel="stylesheet" href="{{asset('css/sidebar.css')}}">
     <link rel="stylesheet" href="{{asset('css/styles.css')}}">
     <link rel="stylesheet" href="{{asset('css/price.css')}}">
+<<<<<<< HEAD
     <link rel="stylesheet" href="{{asset('css/list.css')}}">
     <link rel="stylesheet" href="{{asset('css/dropdown.css')}}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+=======
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{asset('css/list.css')}}">
+    <link rel="stylesheet" href="{{asset('css/dropdown.css')}}">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+>>>>>>> b7e01d3c684274ff0ef07ddc5e6c226ca91dd4ac
 </head>
 
 <body>
 <div class="bg-white">
     @include('masterLayout.partial.header')
+<<<<<<< HEAD
 
+=======
+>>>>>>> b7e01d3c684274ff0ef07ddc5e6c226ca91dd4ac
     <div class="container">
         @section('content')
         @show
     </div>
-
     @include('masterLayout.partial.footer')
 </div>
 

@@ -32,4 +32,8 @@
             <p class="copyright">Copyright © 2018</p>
         </div>
     </footer>
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> b7e01d3c684274ff0ef07ddc5e6c226ca91dd4ac
