@@ -5,8 +5,6 @@
 </style>
 <header>
     <div class="header">
-
-
         <div class="bg-white">
             <div class="logo">
                 <img class="mb-0 mt-5" src="{{URL::asset('/image/Logo1.png')}}"/>
