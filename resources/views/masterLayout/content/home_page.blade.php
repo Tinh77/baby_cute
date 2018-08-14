@@ -1,5 +1,5 @@
-{{--@extends('masterLayout.layout.masterLayout')--}}
-{{--@section('content')--}}
+@extends('masterLayout.layout.masterLayout')
+@section('content')
 
 @include('masterLayout.partial.slide')
 
@@ -13,7 +13,7 @@
                      alt="Card image cap">
             </div>
         </div>
-        <div class="col-sm-4 mt-3">
+        <div class=" col-sm-4 mt-3">
             <div class="card" style="width: 100%;">
                 <img class="card-img-top img-fluid"
                      src="https://static.wixstatic.com/media/45d10e_010e128828524c519bee613e8d9dc167~mv2.jpg/v1/crop/x_570,y_167,w_1057,h_638/fill/w_634,h_384,al_c,q_80,usm_0.66_1.00_0.01/45d10e_010e128828524c519bee613e8d9dc167~mv2.webp"
@@ -218,5 +218,4 @@
         </a>
     </div>
 </div>
-
-{{--@endsection--}}
+@endsection

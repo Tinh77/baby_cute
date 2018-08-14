@@ -23,10 +23,13 @@
     <link rel="stylesheet" href="{{asset('css/Footer-Dark.css')}}">
     <link rel="stylesheet" href="{{asset('css/Simple-Header-y-Navbar-adaptativo-1.css')}}">
     <link rel="stylesheet" href="{{asset('css/Simple-Header-y-Navbar-adaptativo.css')}}">
+<<<<<<< HEAD
     <link rel="stylesheet" href="{{asset('css/Simple-Slider.css')}}">
 <<<<<<< Updated upstream
     <link rel="stylesheet" href="{{asset('css/Simple-Slider.css')}}">
 =======
+=======
+>>>>>>> d08dc9fafee6aae403b1484c8387710a6a2391f1
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway+Dots">
     <link rel="stylesheet" href="{{asset('css/News-article-for-homepage-by-Ikbendiederiknl.css')}}">
@@ -40,20 +43,17 @@
     <link rel="stylesheet" href="{{asset('css/list.css')}}">
     <link rel="stylesheet" href="{{asset('css/dropdown.css')}}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
->>>>>>> Stashed changes
 </head>
 
 <body>
 <div class="bg-white">
     @include('masterLayout.partial.header')
     <div class="container">
-        @include('masterLayout.content.home_page')
-
+        @section('content')
+        @show
     </div>
-
     @include('masterLayout.partial.footer')
 </div>
-
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -67,6 +67,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
 <script id="bs-live-reload" data-sseport="55602" data-lastchange="1533970729387"
         src="{{asset('js/livereload.js')}}"></script>
+<script scr="/js/price.js"></script>
+<script scr="/js/list.js"></script>
+<script id="bs-live-reload" data-sseport="55602" data-lastchange="1533973033728" src="/js/livereload.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -11,10 +11,12 @@
 |
 */
 
+
 Route::get('/', function () {
-    return view('masterLayout.layout.masterLayout');
+    return view('masterLayout.content.home_page');
 });
 
-Route::get('/login', function () {
-    return view('masterLayout.content.login');
+Route::get('/list', function () {
+    return view('masterLayout.content.list');
 });
+

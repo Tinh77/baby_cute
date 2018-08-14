@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 <style>
 
 
@@ -6,20 +6,10 @@
 </style>
 <header>
     <div class="header">
-
-
         <div class="bg-white">
             <div class="logo">
                 <img class="mb-0 mt-5" src="{{URL::asset('/image/Logo1.png')}}"/>
             </div>
-            <nav class="scroll-menu text-center mb-3 ml-3">
-                <a class="nav-link active text-dark mr-5 item-menu font-text" href="#">Trang chủ</a>
-                <a class="nav-link active text-dark mr-5 item-menu font-text" href="#">Trang chủ</a>
-                <a class="nav-link active text-dark mr-5 item-menu font-text" href="#">Trang chủ</a>
-                <a class="nav-link active text-dark mr-5 item-menu font-text" href="#">Trang chủ</a>
-                <a class="nav-link active text-dark mr-5 item-menu font-text" data-toggle="modal"
-=======
-
     <div class="header" style="background-color: #EFBFB2">
         <div>
             <div class="logo">
@@ -30,9 +20,7 @@
                 <a class=" text-dark mr-5 item-menu font-text" href="#">Trang chủ</a>
                 <a class=" text-dark mr-5 item-menu font-text" href="#">Trang chủ</a>
                 <a class=" text-dark mr-5 item-menu font-text" href="#">Trang chủ</a>
-                <a class=" text-dark mr-5 item-menu font-text" data-toggle="modal"
->>>>>>> Stashed changes
-                   data-target="#exampleModalCenter" href="#">Đăng nhập</a>
+                <a class=" text-dark mr-5 item-menu font-text" data-toggle="modal" data-target="#exampleModalCenter" href="#">Đăng nhập</a>
 
             </nav>
         </div>
@@ -42,8 +30,11 @@
                 <div class="modal-content w-100">
                     <div class="login-wrap">
                         <div class="login-html">
-                            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Đăng nhập</label>
-                            <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Đăng ký</label>
+                            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1"
+                                                                                                     class="tab">Đăng
+                                nhập</label>
+                            <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Đăng
+                                ký</label>
                             <div class="login-form">
                                 <div class="sign-in-htm">
                                     <div class="group">
@@ -92,11 +83,8 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
-
     </div>
 
