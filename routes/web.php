@@ -11,16 +11,12 @@
 |
 */
 
-<<<<<<< HEAD
+
 Route::get('/', function () {
-    return view('masterLayout.layout.masterLayout');
+    return view('masterLayout.content.home_page');
 });
 
-Route::get('/login', function () {
-    return view('masterLayout.content.login');
-=======
-Route::get('/gift', function () {
+Route::get('/list', function () {
     return view('masterLayout.content.list');
->>>>>>> 59912c54dc2a5cd4f73fed0e184f9a5d25cbc019
 });
 

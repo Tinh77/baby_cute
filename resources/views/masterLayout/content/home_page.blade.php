@@ -218,8 +218,4 @@
         </a>
     </div>
 </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> b7e01d3c684274ff0ef07ddc5e6c226ca91dd4ac
 @endsection
