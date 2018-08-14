@@ -1,10 +1,3 @@
-<style>
-    .item-menu {
-        overflow: auto;
-        white-space: nowrap;
-    }
-
-</style>
 <header>
     <div class="header">
         <div class="bg-white">
