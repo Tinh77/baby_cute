@@ -33,16 +33,14 @@
     background-color: #FDEAEC;
 }
 
-.text-slide {
-    color: #575757;
-    font-size: 30px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 40%;
+.slide .image-slide {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
+    height: 550px;
 }
+
 
 
 /*login*/

@@ -23,6 +23,13 @@
     <link rel="stylesheet" href="{{asset('css/Footer-Dark.css')}}">
     <link rel="stylesheet" href="{{asset('css/Simple-Header-y-Navbar-adaptativo-1.css')}}">
     <link rel="stylesheet" href="{{asset('css/Simple-Header-y-Navbar-adaptativo.css')}}">
+<<<<<<< HEAD
+    <link rel="stylesheet" href="{{asset('css/Simple-Slider.css')}}">
+<<<<<<< Updated upstream
+    <link rel="stylesheet" href="{{asset('css/Simple-Slider.css')}}">
+=======
+=======
+>>>>>>> d08dc9fafee6aae403b1484c8387710a6a2391f1
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway+Dots">
     <link rel="stylesheet" href="{{asset('css/News-article-for-homepage-by-Ikbendiederiknl.css')}}">

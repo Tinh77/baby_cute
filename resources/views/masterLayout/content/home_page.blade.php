@@ -4,7 +4,7 @@
 @include('masterLayout.partial.slide')
 
 <div class="home-page">
-    <h4 class="text-center font-text mt-2 mb-2"><strong>Sản phẩm được tìm kiếm nhiều nhất</strong></h4>
+    <h4 class="text-center font-text p-5 mb-2"><strong>Sản phẩm được tìm kiếm nhiều nhất</strong></h4>
     <div class="row">
         <div class="col-sm-4 mt-3">
             <div class="card" style="width: 100%;">

@@ -12,6 +12,8 @@
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
             <div class="view">
+                <div class="image-slide" style="background-image: url({{asset('image/19985205_1007040769398785_7801387006000365568_n.jpg')}})"></div>
+                <div class="mask rgba-black-light"></div>
             </div>
             <div class="carousel-caption">
                 <h3 class="h3-responsive">Mọi thứ đều có ý nghĩa</h3>

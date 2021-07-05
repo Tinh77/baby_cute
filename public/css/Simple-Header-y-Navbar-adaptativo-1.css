@@ -1,15 +1,10 @@
-body {
-  margin:0;
-  padding:0;
-  font-family:'Aldrich';
-  background:#fbfbfb;
-}
+
 
 header {
   width:100%;
   padding:40px 0;
-  color:#fff;
   text-align:center;
+  background-image: url(https://media.gettyimages.com/photos/teddy-bear-background-empty-space-for-textbirthday-toy-picture-id511608696?b=1&k=6&m=511608696&s=612x612&w=0&h=ZNGfZ6wY9B4dv3Uj3tg70HF8B8oh7Zt90gEUZYI1bCc=);
 }
 
 a {
